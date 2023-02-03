@@ -1,6 +1,34 @@
-.navbar {
+/* .navbar {
 	background-color: #563d7c;
-}
-.navbar a {
+} */
+/* .navbar a {
     color:white ;
+} */
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: rgba(255, 255, 255, 0.486);
+}
+.nav-item a{
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.486);
+}
+.menu-bar{
+    background-image:linear-gradient(-90deg,#d38312,#a83279) ;
+}
+
+.btn_login{
+    color: #d06ba8;
+    background-color: #ede0e8;
+}
+
+.btn_signup{
+    color: white;
+    background-color: #a83279;
 }
