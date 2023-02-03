@@ -3,6 +3,7 @@ import Navbar from './component/Navbar';
 import Blogs from './pages/Blogs'
 import AboutUs from './pages/AboutUs'
 import FreeQuiz from './pages/FreeQuiz'
+import BlogItem from './pages/BlogItem'
 
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
+      <Blogs/>
         <Switch >
         <Route exact path="/about">
             <AboutUs/>
