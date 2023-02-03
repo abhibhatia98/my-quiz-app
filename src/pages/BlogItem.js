@@ -1,14 +1,13 @@
 import React from 'react'
-import './BlogItem.css'
 
 
 const BlogItem = (props) => {
     let { title, description, imageUrl, newsUrl, author, date, source } = props;
     return (
         <>
-            <div className="card col-md-4 my-3 test1" >
-                <div className='container blog-thumbnail'>
-                    <img src={imageUrl} className="card-img-top" alt="..." />
+            <div className="card col-md-4 my-3" style={{ borderRadius: '4%' }}>
+                <div className='container blog-thumbnail' style={{ padding: '0' }}>
+                    <img src={imageUrl} className="card-img-top" alt="..." style={{ paddingTop: '10px' }} />
                 </div>
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
