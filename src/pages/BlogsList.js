@@ -4,13 +4,13 @@ import { blogList } from '../blogdata';
 
 
 
-function Blog() {
+function BlogList() {
   return (
     <>
       <div className="container my-3" style={{ padding: '0' }}>
         <div className="row mx-1" style={{ marginTop: '60px' }}>
           {blogList.map((element) => {
-            return <BlogItem title={element.title} description={element.description} imageUrl={element.urlToImage} />
+            return <BlogItem id={element.id} title={element.title} description={element.description} imageUrl={element.urlToImage} />
           })}
         </div>
 
@@ -19,4 +19,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default BlogList
